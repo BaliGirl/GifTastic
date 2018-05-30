@@ -1,10 +1,11 @@
 $(document).ready(function() {
 
-    //initial array of types of sports to pre-populate starter buttons
+    //initial array of types of sports to pre-populate the starter buttons
 
     var topics = ["Soccer", "Badminton", "Basketball", "Tennis", "Football", "Lacrosse", "Swimming", "Curling", "Surfing", "Golfing"];
 
-    //first need function to GET attributes and display content to DOM using Giphy API and JSON
+	//first step to create a function to GET attributes and display content to DOM using Giphy API which using specific API key and JSON
+	//limit the images to show only 10 images
 
     function displayInfo() {
         var sport = $(this).attr("sport-name");
@@ -17,7 +18,7 @@ $(document).ready(function() {
             method: "GET"
         }).done(function(response) {
 
-            //empty sports div so new selection appends to emtpy div - do not want previous searches listed
+            //empty sports div so new selection appends to emtpy div - do not want previous searches listed aka clear page
 
             $("#sports").empty();
 
