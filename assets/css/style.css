@@ -1,11 +1,10 @@
-/* .container{
-	padding-top: 5%;
-} */
-
+body{
+	background: url(../images/abstract_wavy_background.jpg) no-repeat center center fixed;
+}
 .jumbotron{
 	/*padding: 1%;*/
-	background-color: lightblue;
-	color: blue;
+	background-color: yellowgreen;
+	color: green;
 }
 
 #movies{
