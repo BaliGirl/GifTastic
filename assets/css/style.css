@@ -1,16 +1,48 @@
-body{
-	background: url(../images/abstract_wavy_background.jpg) no-repeat center center fixed;
-}
-.jumbotron{
-	/*padding: 1%;*/
-	background-color: yellowgreen;
-	color: green;
+body {
+	background: url("../images/bluewave-white-backgrounds.jpg");
+  }
+  
+  .container {
+	clear: both;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 960px;
+  }
+  
+  .jumbotron{
+    /*padding: 1%;*/
+    background-color: rgb(116, 231, 252);
+    color: darkblue;
 }
 
-#movies{
-	padding: 3%;
-}
-
-div{
-	margin-bottom: 2%;
-}
+  .userSport {
+	  display: inline-block;
+	  margin: 10px;
+  }
+  
+  button.sport {
+	  border-radius: 12px;
+	  background-color: #169cf5;
+	  color: white;
+	  padding: 5px 10px;
+	  text-align: center;
+	  text-decoration: none;
+	  font-size: 12px;
+	  margin: 10px 5px 0;
+  }
+  
+  #sport-form {
+	  margin: 10px 0;
+  }
+  
+  #addSport {
+	  border-radius: 12px;
+	  background-color: lightseagreen;
+	  color: white;
+	  padding: 5px 10px;
+	  text-align: center;
+	  text-decoration: none;
+	  font-size: 12px;
+	  margin: 5px 0;
+  }
+  

@@ -1,56 +1,58 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
-  	<meta charset="UTF-8">
-	<title>Giftastic Movies</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Sigmar+One|Special+Elite" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/png" href="assets/images/JamesBond_icon.png"/>
+    <meta charset="UTF-8">
+    <title>Sports GifTastic!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Sigmar+One|Special+Elite" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="assets/images/sport-icons.jpg"/>
 </head>
+
 <body>
-	<div class="container">
-		<div class="jumbotron text-center">
-			<h1>Giftastic Movies</h1>
-		</div>
-		<div class="row">
-			<div class="col-sm-8">
-				<div id="movie-buttons">
-
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<form id="form">
-					<label for="movie-input">Add a movie</label><br>
-					<input type="text" id="movie-input">
-					<input id="add-movie" type="submit" value="Submit">
-				</form>
-			</div>
-
-			<div class="row">
-				<div class="col-sm-8">
-					<div id="movies">
-					</div>
-				</div>
-			</div>
-		</div>
+    <div class="container">
+			<div class="jumbotron text-center">
+					<h1>Sports GifTastic</h1>
+				</div>		
+        <div class="row">
+            <div class="col-md-9">
+                <div id="sportButtons"></div>
+            </div>
+            <div class="col-md-3">
+                <form id="sport-form">
+                    <label for="sport-input">Add a Sport:</label>
+                    <input type="text" id="sport-input">
+                    <input id="addSport" type="submit" value="submit">
+                </form>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="sports"></div>
+            </div>
+        </div>
 	</div>
-	<footer class="mt-5 text-center fixed-bottom">
+    <footer class="mt-5 text-center fixed-bottom">
 
-          <nav class="navbar-dark bg-dark text-white">
-              <small>Copyright &copy; Therisia W Hadley</small>
-          </nav>
-      
-    </footer>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-    <!-- Added link to Javascript-->
-	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js">
-	</script>
-	<script type="text/javascript" src="assets/javascript/app.js">
-	</script>
+			<div class="absolute-top pt-1 mt-5 bg-info">
+	
+			</div>
+			  <nav class="navbar-dark bg-dark text-white">
+				  <small>Copyright &copy; Therisia W Hadley</small>
+			  </nav>
+		  
+		</footer>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  <!-- Added link to Javascript-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js">
+  </script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
+
 </html>
