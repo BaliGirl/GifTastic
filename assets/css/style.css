@@ -1,4 +1,9 @@
-body {
+  h1 {
+	font-family: 'Black And White Picture', sans-serif;
+	font-size: 6rem;
+  }
+
+  body {
 	background: url("../images/bluewave-white-backgrounds.jpg");
   }
   
@@ -13,7 +18,7 @@ body {
     /*padding: 1%;*/
     background-color: rgb(116, 231, 252);
     color: darkblue;
-}
+  }
 
   .userSport {
 	  display: inline-block;
@@ -45,4 +50,3 @@ body {
 	  font-size: 12px;
 	  margin: 5px 0;
   }
-  

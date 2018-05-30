@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     //initial array of types of sports to pre-populate starter buttons
 
-    var topics = ["Soccer", "Hockey", "Basketball", "Tennis", "Football", "Lacrosse", "Swimming", "Curling", "Bowling"];
+    var topics = ["Soccer", "Badminton", "Basketball", "Tennis", "Football", "Lacrosse", "Swimming", "Curling", "Surfing", "Golfing"];
 
     //first need function to GET attributes and display content to DOM using Giphy API and JSON
 
